@@ -4,6 +4,7 @@
 #define __PROJECTICARUS_H__
 
 #include "EngineMinimal.h"
+#include "Engine.h"
 
 
 #endif
