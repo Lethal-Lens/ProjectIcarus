@@ -27,5 +27,5 @@ AProjectIcarusGameMode::BeginPlay()
 {
     Super::BeginPlay();
     
-    GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Black, TypeGame);
+    GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Black, "Hello");
 }
