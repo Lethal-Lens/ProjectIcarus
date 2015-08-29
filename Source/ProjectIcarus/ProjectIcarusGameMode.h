@@ -21,8 +21,6 @@ public:
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameType)
     TEnumAsByte<EGameType> TypeGame;
-    
-    virtual void BeginPlay() override;
 
 };
 

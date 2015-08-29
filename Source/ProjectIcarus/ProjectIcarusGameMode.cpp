@@ -21,11 +21,3 @@ AProjectIcarusGameMode::AProjectIcarusGameMode(const FObjectInitializer& ObjectI
     
     TypeGame == EGameType::E_FREE;
 }
-
-
-AProjectIcarusGameMode::BeginPlay()
-{
-    Super::BeginPlay();
-    
-    GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Black, "Hello");
-}
